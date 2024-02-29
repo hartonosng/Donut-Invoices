@@ -1,0 +1,22 @@
+{
+  "bos_token": "<s>",
+  "cls_token": "<s>",
+  "eos_token": "</s>",
+  "mask_token": {
+    "__type": "AddedToken",
+    "content": "<mask>",
+    "lstrip": true,
+    "normalized": true,
+    "rstrip": false,
+    "single_word": false
+  },
+  "model_max_length": 1000000000000000019884624838656,
+  "name_or_path": "./donut-base",
+  "pad_token": "<pad>",
+  "sep_token": "</s>",
+  "sp_model_kwargs": {},
+  "special_tokens_map_file": null,
+  "tokenizer_class": "XLMRobertaTokenizer",
+  "tokenizer_file": "/root/.cache/huggingface/transformers/213c2041358e63047b407f94cde1ae23904d31a3bceb57eab291028c1e949437.7135a4b25ac726e19641f0d68803ff02bad960d6319064f55fa9c536929b86fc",
+  "unk_token": "<unk>"
+}
